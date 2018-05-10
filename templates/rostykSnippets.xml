@@ -1,0 +1,17 @@
+<templateSet group="rostykSnippets">
+  <template name="cc" value="console.log($end$)" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="s" value="($here$) =&gt; {&#10;    $end$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="here" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,162 @@
+/*body {*/
+  /*padding: 50px;*/
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*background: url(../../assets/app/more12.jpg) no-repeat fixed center center;*/
+  /*background-size: cover;*/
+/*}*/
+
+/*a {*/
+  /*color: #00B7FF;*/
+  /*cursor: pointer;*/
+/*}*/
+
+/*a:hover,*/
+/*a:active {*/
+  /*color: #00B7FF;*/
+  /*text-decoration: underline;*/
+/*}*/
+
+/*a.danger {*/
+  /*color: red;*/
+/*}*/
+
+/*.spacing {*/
+  /*margin-bottom: 20px;*/
+/*}*/
+
+/*input.ng-invalid.ng-touched {*/
+  /*border: 1px solid red;*/
+/*}*/
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(more12.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+title{
+  background-image: url('../../assets/favicon.ico');
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 500px;
+  height: 400px;
+  background: rgba(222, 222, 222, 0.79)!important;
+  border-radius: 30px;
+  margin-top: 100px;
+}
+
+.main_header{
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.in, .out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  color: rgba(140, 82, 9, 0.85);
+  text-shadow: 1px 1px 1px black;
+}
+
+input, select {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #301c07;
+  border-radius: 2px;
+  font-family: Verdana;
+  box-shadow: 0 0 5px #231201;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input, div.output {
+  background: rgba(173, 103, 29, 0.40);
+}
+
+/*div.output{*/
+  /*background: rgba(173, 103, 29, 0.40);*/
+  /*width: 100%;*/
+  /*height: 20%;*/
+  /*border: 1px solid black;*/
+/*}*/
+
+select {
+  background: rgba(186, 101, 13, 0.15);
+  font-weight: bold;
+  color: black;
+}
+
+#button {
+  background: rgba(66, 35, 3, 0.55);
+  margin-top:0!important;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+#button:hover {
+  background: rgba(124, 66, 6, 0.55);
+}
+
+#button:active {
+  background: rgba(51, 111, 206, 0.35);
+}
+
+.btn__clear{
+  cursor: pointer;
+  width: 15%;
+  margin-top: 100px!important;
+}
+
+.btn__exchange{
+  height: 4%;
+  margin-top: 17%;
+  cursor: pointer;
+  background: rgba(173, 103, 29, 0.1);
+  border: 1px solid black;
+  box-shadow: 0 2px 6px;
+}
+
+@media screen and (max-width: 365px) {
+  .all {
+    flex-direction: column;
+  }
+
+  input {
+    margin-bottom: 8px;
+  }
+
+  select {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+}
